@@ -3,6 +3,7 @@
   "name": "react-native-umd",
   "main": "./packages/react-native-web/dist/index.js",
   "browser": "./packages/react-native-web/dist/umd/index.umd.js",
+  "private": true,
   "scripts": {
     "clean": "del-cli ./packages/*/dist",
     "compile": "npm-run-all clean -p \"compile:* {@}\" --",
